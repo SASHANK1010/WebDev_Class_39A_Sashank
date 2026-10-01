@@ -1,0 +1,279 @@
+body{
+    font-family: Arial;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #171c22;
+}
+
+
+header{
+    background-color: #a0cbde;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 30px 20px;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+
+}
+
+header h2 {
+    margin: 5px 0 20px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.name{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-links li {
+  color: rgba(122, 183, 203, 0.751);
+  cursor: pointer;
+}
+.nav-links a {
+  color: white;           
+  text-decoration: none; 
+}
+
+.nav-links a:hover {
+    color: rgb(128, 144, 154);
+
+}
+
+
+
+section {
+
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+
+}
+
+
+section h2 {
+    margin-top: 0;
+    color: #173b63;
+    font-size: 27px;
+
+}
+
+#introduction h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.image{
+    text-align: center;
+}
+
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.caption{
+    font-style: italic;
+    color: gray;
+}
+
+#experience ol {
+
+    padding-left: 0;
+
+    list-style-position: inside;
+
+}
+
+
+#experience li {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 12px 18px;
+    background-color: #f4f8fc;
+    border-radius: 8px;
+
+}
+
+
+#experience li:nth-child(odd) {
+
+    font-weight: 300;
+
+}
+
+
+#experience li:nth-child(even) {
+
+    font-weight: bold;
+
+}
+
+
+
+
+
+.table{
+    border-collapse: collapse;
+    width:100%;
+     margin-top: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+
+.skills th{
+        background-color: #2d3640;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+
+
+}
+
+
+td {
+
+    padding: 14px;
+    border: 1px solid #d7e2ee;
+    text-align: center;
+
+}
+
+
+td:first-child {
+    text-align: left;
+
+}
+
+
+tr:nth-child(even) {
+    background-color: #edf5fc;
+
+}
+
+
+tr:hover {
+    background-color: #dcecf9;
+
+}
+
+.projects {
+    background-color:aliceblue;
+    padding: 10px;
+    
+}
+
+.projects h3 {
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
+.video iframe{
+    width: 400px;
+    height: 225px;
+}
+
+.form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form h2 {
+    margin-bottom: 15px;
+}
+
+
+.form form {
+    width: 300px;
+    margin: auto;
+}
+
+
+.form-group {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #555;
+}
+@media (max-width: 600px) {
+    body {
+        margin: 5px;
+    }
+
+    .video iframe {
+        width: 100%;
+    }
+
+    .skills table {
+        width: 100%;
+    }
+}
+
